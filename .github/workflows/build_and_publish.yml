@@ -18,7 +18,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/gpt-bot
+          images: ${{ secrets.DOCKER_USERNAME }}/gpt-tg-bot
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
         with:
